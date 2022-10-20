@@ -8,9 +8,6 @@ body {
 	
 }
 
-body{
-	overflow-x: hidden;
-}
 
 
 
@@ -292,10 +289,7 @@ position: absolute;
 	width: 300px;
 
 }
-
-#particles-js{
-	width: 100%;
-	
-
-	}
+#footer{
+	margin-left: 2em;
+}
 }
