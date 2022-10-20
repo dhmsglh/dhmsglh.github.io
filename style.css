@@ -61,12 +61,15 @@ nav{
 }
 
 button{
+
+		
 		padding: 9px 25px;
 		background-color:rgb(255, 0, 0);
 		border: none;
 		border-radius: 50px;
 		cursor: pointer;
 		font-family: 'Cinzel', serif;
+		
 		
 }
 
@@ -99,7 +102,7 @@ button{
 	
 	margin-left: 5em ;
 	margin-top: -5em;
-	text-align: center;
+	
 
 }
 
@@ -234,13 +237,19 @@ position: absolute;
 
  @media screen and (max-width:576px) {
 	 
-	 body{
-		overflow-x: hidden;
-	}
 	nav ul{
-		display: none;
+		display: hidden;
 	
 	}
+.nav{
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.nav ul li a button{
+	display: hidden;
+}
 
 	.container .satu{
 		width: 50%;
