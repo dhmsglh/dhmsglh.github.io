@@ -8,6 +8,15 @@ body {
 	
 }
 
+html, body {
+	
+ 
+ 
+	
+	overflow-x: hidden;
+	
+	}
+
 
 
 .logo img{
@@ -28,6 +37,7 @@ body {
 ul li a{
 	color: white;
 	text-decoration: none;
+	width: 100%;
 	
 }
 nav{
@@ -85,8 +95,8 @@ button{
 }
 .container img{
 	
-	display: flex;
-	justify-content: space-between;
+	
+	
 	border-radius: 5px;
 	width: 15em;
 	
@@ -154,6 +164,7 @@ position: absolute;
 	border: none;
 	outline: none;
 	text-align: center;
+	align-items: center;
 }
 
 .form .input-group{
@@ -211,3 +222,85 @@ position: absolute;
 	margin: 115em;
 	margin-left: -1em;
  }
+
+
+ /* media break point */
+
+ @media screen and (max-width: 768px) {
+	nav ul{
+		width: 50%;
+		display: flex;
+		flex-direction: left;
+		margin-right: 100px;
+
+	}
+	.caption{
+		display: none;
+	}
+
+	
+ }
+
+ @media screen and (max-width:500px) {
+	 
+	nav ul{
+		display: none;
+	
+	}
+
+	.container .satu{
+		width: 100%;
+		
+		margin-right: -2em;
+		position: relative;
+		margin-bottom: 40em;
+		
+	}
+
+	.container img{
+		width: 100px;
+		margin-left: -10em;
+		margin-bottom: 20em;
+		
+	}
+	.container .satu span h1{
+		position: relative;
+		margin: -10em;
+		margin-left: -5.8em;
+		
+		
+	}
+
+	.container .dua{
+
+		margin-bottom: 20em;
+		text-align:left;
+		white-space: normal;
+		font-size: 15px;
+	}
+
+.container-2{
+
+	margin-top: 45em;
+	margin-left: 5em;
+	width: 80%;
+
+}
+
+.container-2 .title h1{
+	margin-left: -7em;
+	
+}
+	
+.form{
+	margin-left: 5em;
+	width: 300px;
+
+}
+
+#particles-js{
+	width: 100%;
+	
+
+	}
+}
