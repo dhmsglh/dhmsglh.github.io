@@ -8,14 +8,9 @@ body {
 	
 }
 
-html, body {
-	
- 
- 
-	
+body{
 	overflow-x: hidden;
-	
-	}
+}
 
 
 
@@ -76,7 +71,7 @@ button{
 		border-radius: 50px;
 		cursor: pointer;
 		font-family: 'Cinzel', serif;
-		margin-right: 2em;
+		
 }
 
 
