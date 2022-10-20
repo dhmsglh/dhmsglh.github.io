@@ -5,7 +5,6 @@ body {
 	font-family: 'Cinzel', serif;
 	background-color: black;
 	color: rgb(255, 255, 255);
-	
 }
 
 
@@ -40,7 +39,7 @@ nav{
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	
+	left:-10px;
 }
 
 
@@ -96,18 +95,18 @@ button{
 }
 
 
-.dua{
+.container .dua{
+	
 	margin-left: 5em ;
 	margin-top: -5em;
+	text-align: center;
 
 }
 
 * {box-sizing:border-box}
 
 
-.title{
-	margin-left: 14em;
-}
+
 
 .container-2{
 
@@ -139,7 +138,7 @@ position: absolute;
 	display:block;
 	
 	width: 100%;
-	height: 1750px;
+	height: 1800px;
 	position:cover;
 	background-size:cover;
 	
@@ -235,15 +234,18 @@ position: absolute;
 
  @media screen and (max-width:500px) {
 	 
+	 body{
+		overflow-x: hidden;
+	}
 	nav ul{
 		display: none;
 	
 	}
 
 	.container .satu{
-		width: 100%;
+		width: 50%;
 		
-		margin-right: -2em;
+		margin-right: -3em;
 		position: relative;
 		margin-bottom: 40em;
 		
@@ -251,14 +253,14 @@ position: absolute;
 
 	.container img{
 		width: 100px;
-		margin-left: -10em;
+		margin-left: -8.5em;
 		margin-bottom: 20em;
 		
 	}
 	.container .satu span h1{
 		position: relative;
 		margin: -10em;
-		margin-left: -5.8em;
+		margin-left: -5em;
 		
 		
 	}
@@ -269,6 +271,9 @@ position: absolute;
 		text-align:left;
 		white-space: normal;
 		font-size: 15px;
+
+		 line-height: 1,5;
+		
 	}
 
 .container-2{
@@ -280,7 +285,7 @@ position: absolute;
 }
 
 .container-2 .title h1{
-	margin-left: -7em;
+	margin-left: 2em;
 	
 }
 	
@@ -290,6 +295,11 @@ position: absolute;
 
 }
 #footer{
-	margin-left: 2em;
+	margin-left: -1em;
+}
+
+#particles-js{
+	width: 500px;
+	
 }
 }
