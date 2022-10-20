@@ -237,19 +237,13 @@ position: absolute;
 
  @media screen and (max-width:576px) {
 	 
-	nav ul{
-		display: hidden;
 	
-	}
 .nav{
 	display: flex;
 	justify-content: space-between;
 	
 }
 
-.nav ul li a button{
-	display: hidden;
-}
 
 	.container .satu{
 		width: 50%;
